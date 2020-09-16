@@ -66,5 +66,6 @@ console.log (obtenerDatos('Leo', 'Messi', 32, ['TLPA', 'BaseDeDatos', 'Ingles'])
 // Mostrar el resultado por consola.
 //devolverFecha('10','09','2020');
 function devolverFecha(...args){
-    return `Hoy es ${10},/${09},${2020}`;
+    return `Hoy es ${10}/${09}/${2020}`;
 }
+console.log (devolverFecha(10/09/2020))
